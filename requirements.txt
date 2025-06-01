@@ -1,0 +1,8 @@
+azure-ai-agents
+azure-identity>=1.15.0
+azure-monitor-opentelemetry
+opentelemetry-sdk
+opentelemetry-api
+python-dotenv>=1.0.0
+pyyaml
+pathlib

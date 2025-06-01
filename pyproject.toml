@@ -1,0 +1,20 @@
+[project]
+name = "azure-ai-agent-team"
+version = "0.1.0"
+description = "Multi-language code review using Azure AI Agent Service with OpenTelemetry tracing"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+requires-python = ">=3.11"
+
+dependencies = [
+    "azure-ai-agents",
+    "azure-identity>=1.15.0",
+    "azure-monitor-opentelemetry",
+    "opentelemetry-sdk",
+    "opentelemetry-api",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0",
+    "pathlib"
+]
+
+[tool.uv]
+# Optional: uv-specific settings
